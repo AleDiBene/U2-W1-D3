@@ -1,0 +1,49 @@
+* {
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section {
+  width: 20%;
+  border-radius: 120px;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+  border-radius: 120px 120px 0 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between; /* Spinge gli elementi ai lati */
+  align-items: center;
+  width: 80%;
+  padding: 10px;
+}
+
+.container-card {
+  text-align: left;
+}
+
+.price {
+  text-align: right;
+  font-size: 1.3em;
+}
+
+button {
+  width: 40%;
+  padding: 10px 16px;
+  border: none;
+  background-color: orange;
+  color: rgb(116, 35, 35);
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.firstP {
+  font-weight: 600;
+}
