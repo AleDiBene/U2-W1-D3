@@ -1,0 +1,29 @@
+nav {
+  background-color: #fbf7e3;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 60px;
+}
+
+button {
+  background-color: #f3df85;
+  color: rgb(116, 35, 35);
+  border: none;
+  padding: 16px 24px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+}
+
+button img {
+  width: 40px;
+  margin-right: 15px;
+}
+.shop-button {
+  height: 80%;
+  font-size: 2em;
+  padding: 20px 30px;
+}
